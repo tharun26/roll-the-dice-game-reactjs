@@ -1,0 +1,23 @@
+Subtasks:
+    1) Implement spinner page - without spinner UI
+        Mock server api call
+    
+    2) Implement home page based on response from server
+        Add state and methods which needs to passed on to child component
+        render winner UI if winner is set - bring the dialog box and screens
+        Method to update active player state based on current active player.
+        render 
+
+    3) Implement Player card 
+        Add state and onClickMethod 
+        Must render based on props sent from parent
+            if active player is player - enable button
+            else disable
+        If winner is found, set parent state
+                
+    4) Implement Winner UI
+
+    5) Integrate with the servers
+    
+    6) UT
+

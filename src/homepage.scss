@@ -1,0 +1,111 @@
+.homepage-container {
+    padding-top: 20px;
+    overflow: auto;
+    min-height: calc(100vh - 20px - 20px - 20px) ; 
+    /* (view height - padding top - footer height - footer margin bottom) */
+  }
+
+  .matchid-container {
+    height: 20px;
+    width: 100%;
+  }
+
+  .matchid {
+    float: right;
+    margin-right: 30px;
+    cursor: pointer;
+    font-family: Source Sans Pro Regular;
+    font-size: 25px;
+  }
+
+  .homepage-block {
+    margin-top: 10%;
+  }
+
+  .top-text {
+    width: 100%;
+    text-align: center;
+  }
+    
+  .game-title .top-text-font {
+    font-size: 40px;
+    color: #000;
+    font-family: Source Sans Pro Bold;
+    font-weight: bolder;
+  }
+
+  .score-to-win {
+    margin-top: 40px;
+  }
+
+  .score-to-win .top-text-font{
+    font-size: 20px;
+    color: #000;
+    font-family: Source Sans Pro Regular;
+    
+  }
+  
+  .players-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 46px auto auto auto;
+    width: 70%;
+  }
+
+  @media screen and (max-width:500px) {
+    .players-item-container {
+      flex-direction: column;
+    }
+  }
+  
+  .player-wrapper{
+    outline-style: solid;
+    margin: 20px;
+    width:200px;
+    height: 300px;
+  }
+
+  .player-header{
+    text-align: center;
+  }
+
+  .player-avatar{
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin: 40px;
+  }
+
+  .player-avatar img{
+    width:100%;
+    border-radius: 50%;
+  }
+
+  .player-score {
+    text-align:left;
+    margin-left: 20px;
+    font-family: Source Sans Pro Regular;
+  }
+  .player-roll-button-container{
+    margin: 10px;
+  }
+
+  .player-roll-button {
+    width: 100%;
+
+    height: 40px;
+    border-radius: 3px;
+    background-color: #fdd572;
+    float: center;
+    display: table;
+    cursor: pointer;
+    border: none;
+    font-family: Source Sans Pro Regular;
+  }
+
+  .player-roll-button-disable{
+    background-color: #DCDCDC;
+  }
